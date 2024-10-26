@@ -1,0 +1,15 @@
+C:\Users\tamar\Documents\IADE\1-Ano\1-Semestre\FP-Github\ciclos\game\bin\Debug\net8.0\Game.exe
+C:\Users\tamar\Documents\IADE\1-Ano\1-Semestre\FP-Github\ciclos\game\bin\Debug\net8.0\Game.deps.json
+C:\Users\tamar\Documents\IADE\1-Ano\1-Semestre\FP-Github\ciclos\game\bin\Debug\net8.0\Game.runtimeconfig.json
+C:\Users\tamar\Documents\IADE\1-Ano\1-Semestre\FP-Github\ciclos\game\bin\Debug\net8.0\Game.dll
+C:\Users\tamar\Documents\IADE\1-Ano\1-Semestre\FP-Github\ciclos\game\bin\Debug\net8.0\Game.pdb
+C:\Users\tamar\Documents\IADE\1-Ano\1-Semestre\FP-Github\ciclos\game\obj\Debug\net8.0\Game.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tamar\Documents\IADE\1-Ano\1-Semestre\FP-Github\ciclos\game\obj\Debug\net8.0\Game.AssemblyInfoInputs.cache
+C:\Users\tamar\Documents\IADE\1-Ano\1-Semestre\FP-Github\ciclos\game\obj\Debug\net8.0\Game.AssemblyInfo.cs
+C:\Users\tamar\Documents\IADE\1-Ano\1-Semestre\FP-Github\ciclos\game\obj\Debug\net8.0\Game.csproj.CoreCompileInputs.cache
+C:\Users\tamar\Documents\IADE\1-Ano\1-Semestre\FP-Github\ciclos\game\obj\Debug\net8.0\Game.sourcelink.json
+C:\Users\tamar\Documents\IADE\1-Ano\1-Semestre\FP-Github\ciclos\game\obj\Debug\net8.0\Game.dll
+C:\Users\tamar\Documents\IADE\1-Ano\1-Semestre\FP-Github\ciclos\game\obj\Debug\net8.0\refint\Game.dll
+C:\Users\tamar\Documents\IADE\1-Ano\1-Semestre\FP-Github\ciclos\game\obj\Debug\net8.0\Game.pdb
+C:\Users\tamar\Documents\IADE\1-Ano\1-Semestre\FP-Github\ciclos\game\obj\Debug\net8.0\Game.genruntimeconfig.cache
+C:\Users\tamar\Documents\IADE\1-Ano\1-Semestre\FP-Github\ciclos\game\obj\Debug\net8.0\ref\Game.dll
