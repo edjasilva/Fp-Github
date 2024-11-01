@@ -1,32 +1,26 @@
 body{
     background-color: white;
+    font-family: "Montserrat", sans-serif;
 }
 
 /* Primeira parte do footer */
-
 .ft-first{
     background-color: #002F5A;
     color: white;
 }
 
 /* Segunda parte do footer*/
-.ft-second{
-   
+.ft-second{   
     background-color: #002241;
     color: white;
+    font-weight: medium;
+    font-size: 14px;
     
+        
     a{
-        color:white;
-     }
-   
+        color:white;            
+     }   
 }
-
-site-footer__primary:not(:first-of-type):before {
-    border-top: 1px solid #fff;
-    content: "";
-    display: block;
-}
-
 
 
 @media (min-width:992px){
@@ -37,25 +31,44 @@ site-footer__primary:not(:first-of-type):before {
 }
 
 
-
-
 /* tag a do footer*/
-
 .ls-sm-ft-item a{
     
     text-decoration: none;
     color: white;
+    
 }
-/* botão  do footer*/
 
+
+
+
+/* botão  do footer*/
 .btn-ft-dropdown{
     display: flex;
     border: none;
     color: white;
     width: 100%; 
     justify-content: space-between;
-   
-
     
-
 }
+
+.ft-title-lg{
+    font-size:20px;
+    font-weight: bold;
+    padding-bottom: 5%;
+    padding-top: 5%;
+   
+}
+
+.ft-title-sm{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
