@@ -1,0 +1,13 @@
+d-none d-lg-block
+d-none : Esta classe oculta o elemento em todos os tamanhos de ecrã.
+d-lg-block : Esta classe faz com que o elemento se torne um bloco (ou seja, display: block)
+ apenas em ecrãs grandes e maiores (≥992px). Em ecrãs menores que 992px, o elemento continua 
+ oculto devido à classe d-none.
+
+ d-md-none :  Esta classe oculta o elemento em ecrãs médios e maiores (≥768px). Em dispositivos ~
+ que têm uma largura menor que 768px, o elemento será exibido
+
+cor do footer:#002F5A
+
+justify-content (alinhamento horizontal) 
+align-items (alinhamento vertical).

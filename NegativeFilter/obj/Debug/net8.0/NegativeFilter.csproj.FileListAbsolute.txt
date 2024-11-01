@@ -1,0 +1,15 @@
+C:\Users\tamar\Documents\IADE\1-Ano\1-Semestre\FP-Github\NegativeFilter\bin\Debug\net8.0\NegativeFilter.exe
+C:\Users\tamar\Documents\IADE\1-Ano\1-Semestre\FP-Github\NegativeFilter\bin\Debug\net8.0\NegativeFilter.deps.json
+C:\Users\tamar\Documents\IADE\1-Ano\1-Semestre\FP-Github\NegativeFilter\bin\Debug\net8.0\NegativeFilter.runtimeconfig.json
+C:\Users\tamar\Documents\IADE\1-Ano\1-Semestre\FP-Github\NegativeFilter\bin\Debug\net8.0\NegativeFilter.dll
+C:\Users\tamar\Documents\IADE\1-Ano\1-Semestre\FP-Github\NegativeFilter\bin\Debug\net8.0\NegativeFilter.pdb
+C:\Users\tamar\Documents\IADE\1-Ano\1-Semestre\FP-Github\NegativeFilter\obj\Debug\net8.0\NegativeFilter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tamar\Documents\IADE\1-Ano\1-Semestre\FP-Github\NegativeFilter\obj\Debug\net8.0\NegativeFilter.AssemblyInfoInputs.cache
+C:\Users\tamar\Documents\IADE\1-Ano\1-Semestre\FP-Github\NegativeFilter\obj\Debug\net8.0\NegativeFilter.AssemblyInfo.cs
+C:\Users\tamar\Documents\IADE\1-Ano\1-Semestre\FP-Github\NegativeFilter\obj\Debug\net8.0\NegativeFilter.csproj.CoreCompileInputs.cache
+C:\Users\tamar\Documents\IADE\1-Ano\1-Semestre\FP-Github\NegativeFilter\obj\Debug\net8.0\NegativeFilter.sourcelink.json
+C:\Users\tamar\Documents\IADE\1-Ano\1-Semestre\FP-Github\NegativeFilter\obj\Debug\net8.0\NegativeFilter.dll
+C:\Users\tamar\Documents\IADE\1-Ano\1-Semestre\FP-Github\NegativeFilter\obj\Debug\net8.0\refint\NegativeFilter.dll
+C:\Users\tamar\Documents\IADE\1-Ano\1-Semestre\FP-Github\NegativeFilter\obj\Debug\net8.0\NegativeFilter.pdb
+C:\Users\tamar\Documents\IADE\1-Ano\1-Semestre\FP-Github\NegativeFilter\obj\Debug\net8.0\NegativeFilter.genruntimeconfig.cache
+C:\Users\tamar\Documents\IADE\1-Ano\1-Semestre\FP-Github\NegativeFilter\obj\Debug\net8.0\ref\NegativeFilter.dll

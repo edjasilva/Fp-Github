@@ -1,15 +1,5 @@
-C:\Users\tamar\Documents\IADE\1-Ano\1-Semestre\FP-Github\ciclos\bin\Debug\net8.0\Ciclos.exe
-C:\Users\tamar\Documents\IADE\1-Ano\1-Semestre\FP-Github\ciclos\bin\Debug\net8.0\Ciclos.deps.json
-C:\Users\tamar\Documents\IADE\1-Ano\1-Semestre\FP-Github\ciclos\bin\Debug\net8.0\Ciclos.runtimeconfig.json
-C:\Users\tamar\Documents\IADE\1-Ano\1-Semestre\FP-Github\ciclos\bin\Debug\net8.0\Ciclos.dll
-C:\Users\tamar\Documents\IADE\1-Ano\1-Semestre\FP-Github\ciclos\bin\Debug\net8.0\Ciclos.pdb
 C:\Users\tamar\Documents\IADE\1-Ano\1-Semestre\FP-Github\ciclos\obj\Debug\net8.0\Ciclos.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\tamar\Documents\IADE\1-Ano\1-Semestre\FP-Github\ciclos\obj\Debug\net8.0\Ciclos.AssemblyInfoInputs.cache
 C:\Users\tamar\Documents\IADE\1-Ano\1-Semestre\FP-Github\ciclos\obj\Debug\net8.0\Ciclos.AssemblyInfo.cs
 C:\Users\tamar\Documents\IADE\1-Ano\1-Semestre\FP-Github\ciclos\obj\Debug\net8.0\Ciclos.csproj.CoreCompileInputs.cache
 C:\Users\tamar\Documents\IADE\1-Ano\1-Semestre\FP-Github\ciclos\obj\Debug\net8.0\Ciclos.sourcelink.json
-C:\Users\tamar\Documents\IADE\1-Ano\1-Semestre\FP-Github\ciclos\obj\Debug\net8.0\Ciclos.dll
-C:\Users\tamar\Documents\IADE\1-Ano\1-Semestre\FP-Github\ciclos\obj\Debug\net8.0\refint\Ciclos.dll
-C:\Users\tamar\Documents\IADE\1-Ano\1-Semestre\FP-Github\ciclos\obj\Debug\net8.0\Ciclos.pdb
-C:\Users\tamar\Documents\IADE\1-Ano\1-Semestre\FP-Github\ciclos\obj\Debug\net8.0\Ciclos.genruntimeconfig.cache
-C:\Users\tamar\Documents\IADE\1-Ano\1-Semestre\FP-Github\ciclos\obj\Debug\net8.0\ref\Ciclos.dll

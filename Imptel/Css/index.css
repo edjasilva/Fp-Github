@@ -1,0 +1,60 @@
+body{
+    background-color: white;
+}
+
+/* Primeira parte do footer */
+
+.ft-first{
+    background-color: #002F5A;
+    color: white;
+}
+
+/* Segunda parte do footer*/
+.ft-second{
+   
+    background-color: #002241;
+    color: white;
+    
+    a{
+        color:white;
+     }
+   
+}
+
+site-footer__primary:not(:first-of-type):before {
+    border-top: 1px solid #fff;
+    content: "";
+    display: block;
+}
+
+
+@media (min-width:992px){
+    
+    .ft-second a{
+        text-decoration: none;
+    }
+}
+
+
+
+
+/* tag a do footer*/
+
+.ls-sm-ft-item a{
+    
+    text-decoration: none;
+    color: white;
+}
+/* botão  do footer*/
+
+.btn-ft-dropdown{
+    display: flex;
+    border: none;
+    color: white;
+    width: 100%; 
+    justify-content: space-between;
+   
+
+    
+
+}

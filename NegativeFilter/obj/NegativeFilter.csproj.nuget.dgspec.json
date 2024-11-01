@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\tamar\\Documents\\IADE\\1-Ano\\1-Semestre\\FP-Github\\ciclos\\Ciclos.csproj": {}
+    "C:\\Users\\tamar\\Documents\\IADE\\1-Ano\\1-Semestre\\FP-Github\\NegativeFilter\\NegativeFilter.csproj": {}
   },
   "projects": {
-    "C:\\Users\\tamar\\Documents\\IADE\\1-Ano\\1-Semestre\\FP-Github\\ciclos\\Ciclos.csproj": {
+    "C:\\Users\\tamar\\Documents\\IADE\\1-Ano\\1-Semestre\\FP-Github\\NegativeFilter\\NegativeFilter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\tamar\\Documents\\IADE\\1-Ano\\1-Semestre\\FP-Github\\ciclos\\Ciclos.csproj",
-        "projectName": "Ciclos",
-        "projectPath": "C:\\Users\\tamar\\Documents\\IADE\\1-Ano\\1-Semestre\\FP-Github\\ciclos\\Ciclos.csproj",
+        "projectUniqueName": "C:\\Users\\tamar\\Documents\\IADE\\1-Ano\\1-Semestre\\FP-Github\\NegativeFilter\\NegativeFilter.csproj",
+        "projectName": "NegativeFilter",
+        "projectPath": "C:\\Users\\tamar\\Documents\\IADE\\1-Ano\\1-Semestre\\FP-Github\\NegativeFilter\\NegativeFilter.csproj",
         "packagesPath": "C:\\Users\\tamar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\tamar\\Documents\\IADE\\1-Ano\\1-Semestre\\FP-Github\\ciclos\\obj\\",
+        "outputPath": "C:\\Users\\tamar\\Documents\\IADE\\1-Ano\\1-Semestre\\FP-Github\\NegativeFilter\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\tamar\\AppData\\Roaming\\NuGet\\NuGet.Config"
