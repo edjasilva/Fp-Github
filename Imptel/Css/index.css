@@ -42,7 +42,7 @@ body{
 
 
 
-/* botão  do footer*/
+/* botão dopdown do footer*/
 .btn-ft-dropdown{
     display: flex;
     border: none;
@@ -51,7 +51,7 @@ body{
     justify-content: space-between;
     
 }
-
+/** texto título para ecrãs grandes/
 .ft-title-lg{
     font-size:20px;
     font-weight: bold;
@@ -60,11 +60,63 @@ body{
    
 }
 
+/* homepage texto do título para ecrãs pequenos*/
 .ft-title-sm{
     font-size: 20px;
     font-weight: bold;
 }
 
+
+/*AboutUs*/
+
+.text-title-main{
+    color: #253653;
+    font-weight:normal;
+    font-size:xx-large;
+    text-align: center;
+
+}
+
+.text-body-main{
+    color: #253653;
+    font-weight: 300;
+    text-align: justify;
+    
+
+}
+
+/* botão ver mais main*/
+.btn-more-main{
+    color:white;
+    background-color: #003565;
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+}
+/* botão candidatar main*/
+.btn-apply-main{
+    color:white;
+    background-color: #003565;
+    height: 40px;
+    width: 190px;
+    border-radius: 10px;
+}
+
+.color-gold{
+    color:#977919;
+}
+
+/* botão dopdown da main*/
+.btn-main-dropdown{
+  
+    display: flex;
+    border: none;
+    color: #253653;
+    width: 100%; 
+    text-align: justify;
+    
+    
+}
 
 
 
