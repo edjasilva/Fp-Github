@@ -51,7 +51,7 @@ body{
     justify-content: space-between;
     
 }
-/** texto título para ecrãs grandes/
+/* texto título para ecrãs grandes*/
 .ft-title-lg{
     font-size:20px;
     font-weight: bold;
