@@ -1,5 +1,5 @@
 body{
-    background-color: white;
+    background-color: #F8FCFF;
     font-family: "Montserrat", sans-serif;
 }
 
@@ -33,7 +33,7 @@ body{
 
 /* tag a do footer*/
 .ls-sm-ft-item a{
-    
+    font-size: 11pt;
     text-decoration: none;
     color: white;
     
@@ -53,7 +53,7 @@ body{
 }
 /* texto título para ecrãs grandes*/
 .ft-title-lg{
-    font-size:20px;
+    font-size:13pt;
     font-weight: bold;
     padding-bottom: 5%;
     padding-top: 5%;
@@ -117,6 +117,11 @@ body{
     
     
 }
+
+
+
+
+
 
 
 
