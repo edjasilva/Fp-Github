@@ -21,21 +21,27 @@
 </head>
 <body>
     <!--navbar ínicio-->
-    <nav>
-        <div class="container-fluid py-3 px-5">
-            <div class="row align-items-center ">
-                <div class="col-10 ">
-                    <a  href=""><img src="../images/logo.svg" alt=""></a>
-                </div>
-                <div class="col-1">
-                    <a href=""> <img src="../images/fi-br-search.svg" alt=""></a>
-                </div>
-                <div class="col-1">
-                    <a href=""><img src="../images/fi-rr-menu-burger.svg" alt=""></a>
-                </div>
+    <nav class="navbar navbar-expand-lg px-4 py-3 bg-body ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="../images/logo.svg" alt=""></a>
+            <div class="">
+                <a class="me-4" href=""> <img src="../images/fi-br-search.svg" alt=""></a>
+                <a  data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" href=""><img src="../images/fi-rr-menu-burger.svg" alt=""></a>
             </div>
-        </div>
+           
 
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../Html/index.html">Link</a>
+                    </li>                          
+                </ul>            
+          </div>
+        </div>
     </nav>
 
     <!--navbar fim-->
@@ -44,11 +50,28 @@
     <!--main ínicio-->
     <main>
         <div class="container-fluid">
-            <div class="row px-4 py-5">
+            <a class="main-abU" href="">
+                <div class="row">
+                
+                    <div class="col-12 bck-img" style="background-image: url(../images/imptel1.png);">
+                        <div class="intro-text-container">
+                            <h1 class="intro-tetx fw-semibold text-center">SOBRE O IMPTEL</h1>
+                        </div>
+
+                        <div class="text-center pb-3" style="color: white;">
+                            <img src="../images/fi-rr-home-white.svg" alt=""> <img src="../images/fi-rr-angle-small-right-white.svg" alt=""> 
+                            Sobre o Imptel
+                        </div>
+                    </div>
+                
+                
+                </div>
+            </a>
+            <div class="row px-4 ">
                 <div class="col-12 text-title-main ">
                     BEM VINDO AO IMPTEL
                </div>
-                <div class="col-12 text-body-main py-5">
+                <div class="col-12 text-body-main ">
                     Refência académica no ramo tecnológico em Angola. O IMPTEL não é apenas uma escola; é uma instituição pioneira 
                     onde o futuro da tecnologia é moldado pelas mentes brilhantes de amanhã.
                 </div>
@@ -61,11 +84,11 @@
                 </div>
             </div>
 
-            <div class="row px-4 py-5">
+            <div class="row px-4 ">
                 <div class="col-12 text-title-main ">
                     O NOSSO DIFERENCIAL
                </div>
-                <div class="col-12 text-body-main py-5">
+                <div class="col-12 text-body-main ">
                     O IMPTEL se destaca pela sua cultura dinâmica que estimula a inovação e a independência académica, o que permite 
                     que os alunos expandam os seus horizontes e desenvolvam capacidades únicas através dos desafios que o modelo académico propõe,
                     com orientação e acompanhamento constantes de profissionais competentes que compõem a equipa de docentes do IMPTEL.
@@ -80,7 +103,7 @@
                 </div>
             </div>
 
-            <div class="row px-4 py-5">
+            <div class="row px-4 ">
                 <div class="col-12 text-title-main color-gold pb-5 ">
                     Cursos Técnicos
                 </div>
@@ -157,11 +180,11 @@
 
             </div>
 
-            <div class="row px-4 py-5">
+            <div class="row px-4 ">
                 <div class="col-12 text-title-main ">
                     JUNTE-SE A NÓS
                </div>
-                <div class="col-12 text-body-main py-5">
+                <div class="col-12 text-body-main ">
                     “ <span class="fw-semibold"> O IMPTEL é mais do que uma escola</span>”,  é uma comunidade de inovadores, pensadores e líderes
                 </div>
                 <div class="col-12 text-body-main">
@@ -174,18 +197,44 @@
                 </div>
 
             </div>
-            <div class="row  px-4 py-5">
-                <div class="col-12 text-title-main ">
+            <div class="row  px-4 py-5 justify-content-center">
+                <div class="col-12 text-title-main pb-5 ">
                     O IMPTEL EM ANGOLA 
                </div>
+               <!-- Esse deveria estar em uma row separada?-->
+                <div class="col-12 ">
+                    <div class="card  mb-5 rounded-3" style="width: 100%;"  >
+                        <img src="../images/imptel1.png" class="card-img-top rounded-top-3 " alt="...">
+                        <div class="card-body">
+                            <div class="row ">
+                                <div class="col-6 text-start">
+                                    <div class="card-text  fw-medium">Camama - Sede</div>
+                                </div>
+                                <div class="col-6 text-end">
+                                    <div class="card-text fw-semibold"><a href="">Localização <img  class="pb-1" src="../images/fi-rr-map-marker.svg" alt=""></a></div>
+                                </div>                                                              
+                            </div>                            
+                        </div>
+                    </div>
+                </div>
 
-               <div class="card" style="width: 100%;"  >
-                <img src="../images/imptel-camama.png" class="card-img-top   " alt="...">
-                <div class="card-body">
-                    <a href="#" class="card-link">Card link</a>
-                    <a href="#" class="card-link">Another link</a>
-                 </div>
-              </div>
+                
+                <div class="col-12 ">
+                    <div class="card  mb-5 rounded-3" style="width: 100%;"  >
+                        <img src="../images/imptel2.png" class="card-img-top rounded-top-3 " alt="...">
+                        <div class="card-body">
+                            <div class="row ">
+                                <div class="col-6 text-start">
+                                    <div class="card-text  fw-medium">Vila de Viana</div>
+                                </div>
+                                <div class="col-6 text-end">
+                                    <div class="card-text fw-semibold"><a href="">Localização <img  class="pb-1" src="../images/fi-rr-map-marker.svg" alt=""></a></div>
+                                </div>                                                              
+                            </div>                            
+                        </div>
+                    </div>
+                </div>
+             
 
 
             </div>

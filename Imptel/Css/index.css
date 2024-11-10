@@ -1,6 +1,14 @@
+:root{
+    --box-shadow-color: rgba(161, 161, 161, 0.85);
+}
+
+
 body{
     background-color: #F8FCFF;
     font-family: "Montserrat", sans-serif;
+    color:#002241;
+ 
+    
 }
 
 /* Primeira parte do footer */
@@ -20,6 +28,31 @@ body{
     a{
         color:white;            
      }   
+}
+
+.card {
+    padding: 0;
+    color:#002241;
+    box-shadow: 0 0 10px var(--box-shadow-color);
+    
+    a{
+        color:#005FB5;
+    }
+
+}
+
+
+
+.bck-img {
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.intro-text-container {
+    padding: 12rem 0;
+    color: white;
+    text-align: center;
 }
 
 
@@ -74,6 +107,7 @@ body{
     font-weight:normal;
     font-size:xx-large;
     text-align: center;
+    padding-top: 70px;
 
 }
 
@@ -81,6 +115,7 @@ body{
     color: #253653;
     font-weight: 300;
     text-align: justify;
+    padding-top: 20px;
     
 
 }
@@ -118,11 +153,83 @@ body{
     
 }
 
+/* retirar o text decoration da página aboutUs*/
+.main-abU{
+    text-decoration: none;
+}
 
 
 
+/*botão de filtros main*/
+.btn-filter-main{
+    color:white;
+    background-color: #348E47;
+    height: 40px;
+    width: 130px;
+    border-radius: 8px;
+    border-color: #348E47;
+    box-shadow: 0 0 4px var(--box-shadow-color);
+}
+
+/*news*/
 
 
+.card-title{
+    color:#005FB5;
+    font-size:17pt;
+    font-style: italic;
+    text-align: justify;
+
+}
+
+.card-subtitle{
+    font-weight:500;
+    font-size:17pt;
+    
+}
+
+
+.card-context{
+    font-size:14pt;
+    text-align: justify;
+
+}
+
+.card-end{
+    font-size: 14pt;
+    font-weight: 500;
+    color:#005FB5;
+    text-align: justify;
+}
+
+footer {
+    padding-top: 90px;
+}
+
+.divider-vertical {
+    display: inline-block;
+    width: 1px;
+    background-color: #977919;
+    height: 47px; 
+    vertical-align: middle;
+   
+    
+}
+
+.text-s{
+
+    color: #253653;
+    font-weight:lighter;
+    font-size:x-large;
+    
+}
+
+
+/*
+.row{
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}*/
 
 
 
