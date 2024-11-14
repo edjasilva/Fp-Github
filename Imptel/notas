@@ -11,3 +11,9 @@ cor do footer:#002F5A
 
 justify-content (alinhamento horizontal) 
 align-items (alinhamento vertical).
+
+mailto- para ir diretamnte no email
+
+target="_blank" abre o link numa nova page
+
+Abrir a barra de pesquisa: Pressiona Ctrl + Shift + F
