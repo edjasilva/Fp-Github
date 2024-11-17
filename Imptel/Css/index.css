@@ -381,6 +381,44 @@ header {
         }
     }
 
+
+    .nav-title-sm{
+        font-size: 15pt;
+        color: white;
+        font-weight: 500;     
+        
+    }
+    .dp-nav-sm{
+       
+       padding: 0.5rem;
+    }
+
+    .custom-dropdown{
+        background-color:currentColor;
+        padding: 0%;
+        border: none;
+    }
+
+    .dp-nav-lg{
+      
+        padding-left: 1rem;
+       
+       
+
+        a{
+            
+            color: #0d365c;
+            text-align:start;
+            padding-left: 1.3rem;
+            padding-bottom: 0.2rem;
+            font-weight: bolder;
+            font-size: 10pt;
+        }
+        
+    }
+
+   
+
     
 
  
