@@ -223,6 +223,12 @@ body{
     font-size:x-large;
     
 }
+
+.dd-ft-item{
+    padding-left: 15px;
+    padding-bottom: 10px;
+    font-size: 12pt;
+}
 /*
 header {
     display: block;
@@ -279,9 +285,11 @@ header {
 }
 
 
-/**/
+
+/*Navbar Início */
+
 .sidenav {
-    background-color: #050505;
+    background-color: #002241;
     color: rgba(255, 255, 255);
     position: fixed;
     height: 100vh;
@@ -306,7 +314,7 @@ header {
     }
     
     .navbar-toggler:active{
-    background-color: rgb(29, 29, 29);
+    background-color:#002241;
     }
     
     .navbar-toggler:focus {
@@ -324,4 +332,58 @@ header {
     .sidenav .nav-close:active {
     background-color: rgb(255, 255, 255, 0.1);
     }
+
+    .btn-nav{
+        border: none;
+        background-color: white;
+    }
+
+    .btn-nav-i{
+        color:white;
+        background-color: #003565;
+        height: 40px;
+        width: 140px;
+        border-radius: 10px;
+    }
+
+    .btn-nav-o{
+        color:#003565;
+        background-color: white;
+        height: 40px;
+        width: 140px;
+        border-radius: 10px;
+    }
+
+    @media (min-width:992px){
+        .nav-item{
+            font-size: 12pt;
+            font-weight: 500;  
+            padding-left: 20px;  
+                   
+            a{
+                color: #003565 !important;
+            } 
+            .active{
+                color:#002241 !important;
+                font-weight: 600;
+            }                 
+                                    
+        }
+    }
+    
+
+    @media (min-width: 992px) {
+            .navbar-nav {
+            display: flex;
+            justify-content:end;
+            width: 100%; 
+            align-items:center; 
+        }
+    }
+
+    
+
+ 
+
+    /*Navbar Fim*/
     

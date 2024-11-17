@@ -259,14 +259,16 @@
 
                     </ul>
                     <!-- primeiro container telas pequenas -->
-                    <div class="dropdown-center d-md-none   border-bottom">
-                        <button class="btn btn-ft-dropdown " type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        <div class="ft-title-sm pb-4" >Institucional</div>
+                    <div class=" d-md-none dropdown-center pb-4 border-bottom">
+                        <button class="btn btn-ft-dropdown " type="button" data-bs-toggle="collapse"  data-bs-target="#institucional" aria-expanded="false" aria-controls="institucional">
+                        <div class="ft-title-sm " >Institucional</div>
                         <i class="fas fa-angle-down dropdown-icon"></i>
                         </button>
-                        <ul class="dropdown-menu ">
-                        <li><a class="dropdown-item" href="/Html/aboutUs.html">Apresentação</a></li>
-                        <li><a class="dropdown-item" href="/Html/news.html">Notícias</a></li>
+                        <div class="collapse" id="institucional">
+                            <a class="dropdown-item dd-ft-item" href="/Html/aboutUs.html">Apresentação</a>
+                            <a class="dropdown-item dd-ft-item" href="/Html/news.html">Notícias</a>
+                        </div>
+                       
                         
                         </ul>
                     </div>
@@ -283,16 +285,20 @@
                     </div>
                     <!-- primeiro container telas pequenas -->
                     <div class="dropdown-center d-md-none  pb-4 pt-4 border-bottom">
-                        <button class="btn btn-ft-dropdown " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <button class="btn btn-ft-dropdown " type="button" data-bs-toggle="collapse" data-bs-target="#ensino" aria-controls="ensino" aria-expanded="false" >
                             <div class="ft-title-sm ">Ensino</div>
                         <i class="fas fa-angle-down dropdown-icon"></i>
                         </button>
+                        <div class="collapse" id="ensino">
+
+                        <a class="dropdown-item dd-ft-item" href="#school">Escolas e Institutos</a>
+                        <a class="dropdown-item dd-ft-item" href="../Html/aboutUs.html#course">Cursos</a>
+                        <a class="dropdown-item dd-ft-item" href="#">Candidatura</a>
+
+                        </div>
                         
-                        <ul class="dropdown-menu d-md-none">
-                        <li><a class="dropdown-item" href="#school">Escolas e Institutos</a></li>
-                        <li><a class="dropdown-item" href="../Html/aboutUs.html#course">Cursos</a></li>
-                        <li><a class="dropdown-item" href="#">Candidatura</a></li>
-                        </ul>
+                        
+                        
                     </div>
                 </div>
                 
@@ -309,16 +315,20 @@
                     </div>
                     <!-- primeiro container telas pequenas -->
                     <div class="dropdown-center d-md-none pb-4 pt-4 border-bottom">
-                        <button class="btn btn-ft-dropdown " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <button class="btn btn-ft-dropdown " type="button" data-bs-toggle="collapse" data-bs-target="#contactos"  aria-expanded="false" aria-controls="contactos"  >
                         <div class="ft-title-sm ">Contactos</div>
                         
                         <i class="fas fa-angle-down dropdown-icon"></i>
                         </button>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Action two</a></li>
-                            <li><a class="dropdown-item" href="#">Action three</a></li>
-                        </ul>
+                        <div class="collapse" id="contactos">
+
+                            <a class="dropdown-item dd-ft-item "href="tel:+244923393211">+244 923 393 211</a>
+                            <a class="dropdown-item dd-ft-item" href="mailto:imptel.angola@gmail.com">imptel.angola@gmail.com</a>
+                            
+
+                    
+                        </div>
+                        
                     </div>
                 </div>
                 
@@ -349,17 +359,25 @@
                     </div>
                     <!-- primeiro container telas pequenas -->
                     <div class="dropdown-center d-md-none pb-4 pt-4">
-                        <button class="btn btn-ft-dropdown " type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <button class="btn btn-ft-dropdown " type="button" data-bs-toggle="collapse" data-bs-target="#morada"  aria-expanded="false" aria-controls="morada">
                         <div class="ft-title-sm ">Morada</div>
                         <i class="fas fa-angle-down dropdown-icon"></i>
                         </button>
+                        <div class="collapse" id="morada">
+
+                            <a class="dropdown-item dd-ft-item" href=" https://www.google.pt/maps/place/IMPTEL+I+-+Instituto+M%C3%A9dio+Privado+de+Tecnologias/@-8.9201556,13.2630964,17z/data=!3m1!4b1!4m6!3m5!1s0x1a51f5cd0c83337d:0x870eb1416ad27d3d!8m2!3d-8.9201556!4d13.2630964!16s%2Fg%2F11sj52yv2t?hl=pt-PT&entry=ttu&g_ep=EgoyMDI0MTExMS4wIKXMDSoASAFQAw%3D%3D" target="_blank">                                    
+                                <div class="fs">IMPTEL I - Sede </div>
+                                <p>Estrada Direita do Camama, Talatona Angola</p>
+                            </a>
+                            <a class="dropdown-item dd-ft-item" href="https://www.google.pt/maps/place/IMPTEL+II+-+Instituto+M%C3%A9dio+Privado+de+Tecnologias/@-8.902838,13.3614617,17z/data=!3m1!4b1!4m6!3m5!1s0x1a51f9bc6e972b05:0x148b050d100782d1!8m2!3d-8.9028433!4d13.3640366!16s%2Fg%2F11h3lj8c5t?hl=pt-PT&entry=ttu&g_ep=EgoyMDI0MTExMS4wIKXMDSoASAFQAw%3D%3D" target="_blank">                                    
+                                <div class="fs">IMPTEL II  </div>
+                                <p>Rua Comandante Eurico, Viana Angola</p>
+                            </a>
+                            
+
+                        </div>
                         
-                        <ul class="dropdown-menu">
-                        <li><a class="dropdown-item" href="#">Action</a></li>
-                        <li><a class="dropdown-item" href="#">Action two</a></li>
-                        <li><a class="dropdown-item" href="#">Action three</a></li>
                         
-                        </ul>
                     </div>
                 </div>
             </div>

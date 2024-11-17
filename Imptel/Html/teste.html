@@ -41,19 +41,34 @@
              <nav class="side-navbar">
                  <ul class="navbar-nav">
                      <li class="nav-item">
-                         <a href="#about-us" class="nav-link sn-1">Início</a>
+                         <a href="../Html/homePage.html" class="nav-link sn-1">Início</a>
+                     </li>
+
+
+                     <div class="dropdown">
+                        <li class=" nav-item dropdown-toogle" >
+                            <button class="btn nav-link " type="button" data-bs-toggle="collapse" data-bs-target="#ensinoNav"  aria-expanded="false" aria-controls="ensinoNav" >Ensino <img src="../images/fi-br-angle-small-down (2).svg" alt=""></button>
+                        </li>
+                        <div class="collapse" id="ensinoNav">
+
+                            <ul class=" nav-item" >
+                                <li class="dropdown-item">Cursos</li>
+                                <li class="dropdown-item">Escolas</li>
+                                <li class="dropdown-item">Institutos</li>
+                            </ul>
+                        </div>
+                        
+                    </div>
+
+
+                     <li class="nav-item">
+                         <a href="../Html/aboutUs.html" class="nav-link sn-1">Sobre o Imptel</a>
                      </li>
                      <li class="nav-item">
-                         <a href="#routes" class="nav-link sn-1">Ensino</a>
-                     </li>
-                     <li class="nav-item">
-                         <a href="#our-values" class="nav-link sn-1">Sobre o Imptel</a>
-                     </li>
-                     <li class="nav-item">
-                         <a href="#our-clients" class="nav-link sn-1">Notícias</a>
+                         <a href="../Html/news.html" class="nav-link sn-1">Notícias</a>
                      </li>
                      <li>
-                        <button>Imptel-Online</button>
+                        <a href=""><button type="button" class="btn btn-secondary btn-nav-o btn-sm">Imptel Online <img src="../images/fi-rr-globe.svg" alt=""></button></a>
                      </li>
                     
                  </ul>
@@ -64,36 +79,49 @@
      
         </div>
          <!-- ################################################################################################################ -->
-        <nav class="navbar navbar-expand-lg px-4 py-3 bg-body ">
+        <nav class="navbar navbar-expand-lg px-4 py-3 bg-body">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"><img src="../images/logo.svg" alt=""></a>
                 <div class="">
-                    <button class="me-4 d-lg-none" href=""> <img src="../images/fi-br-search.svg" alt=""></button>
-                    <button class="d-lg-none" type="button" data-bs-toggle="collapse" onclick="SideNav.expand()" aria-expanded="false" aria-label="Toggle navigation" href=""><img src="../images/fi-rr-menu-burger.svg" alt=""></button>
+                    <button class="me-4 d-lg-none  btn-nav" href=""> <img src="../images/fi-br-search.svg" alt=""></button>
+                    <button class="d-lg-none btn-nav" type="button" data-bs-toggle="collapse" onclick="SideNav.expand()" aria-expanded="false" aria-label="Toggle navigation" href=""><img src="../images/fi-rr-menu-burger.svg" alt=""></button>
                 </div>            
                   
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Início</a></li>
-                        <div class="dropdown"> 
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="../Html/homePage.html">Início</a></li>
+                        <div class="dropdown">
                             <li class=" nav-item dropdown-toogle" data-bs-toggle="dropdown"  aria-expanded="false">
-                                <a class="nav-link active" href="">Dropdownbutton </a>
+                                <a class="nav-link " href="">Ensino <img src="../images/fi-br-angle-small-down (1).svg" alt=""></a>
                             </li>
-                            <ul class="dropdown-menu "  >
-                                <li class="dropdown-item">oi</li>
-                                <li class="dropdown-item">oi</li>
-                                <li class="dropdown-item">oi</li>
+                            <ul class="dropdown-menu nav-item">
+                                <li class="dropdown-item">Cursos</li>
+                                <li class="dropdown-item">Escolas</li>
+                                <li class="dropdown-item">Institutos</li>
                             </ul>
                         </div>
-                        <li class="nav-item"><a class="nav-link active"  href="#">Ensino</a></li>
-                        <li class="nav-item"><a class="nav-link active"  href="#">Sobre o Imptel</a></li>
-                        <li class="nav-item"><a class="nav-link active"  href="#">Notícias</a></li>
-                        <button>Imptel Online</button>
+                        <li class="nav-item"><a class="nav-link "  href="../Html/aboutUs.html">Sobre o Imptel</a></li>
+                        <li class="nav-item"><a class="nav-link "  href="../Html/news.html">Notícias</a></li>
+                        <li class="nav-item"><a class="nav-link " href=""><button type="button" class="btn btn-secondary btn-nav-i btn-sm">Imptel Online <img src="../images/Vector.svg" alt=""></button></a></li>
                                                  
                     </ul>            
               </div>
             </div>
         </nav>
+
+
+
+        <!---#####################################################################################################################-->
+
+
+           
+
+
+        <!--###################################################################################################################-->
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
         <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
         <script src="../JavaScript/jav.js"></script>
 
