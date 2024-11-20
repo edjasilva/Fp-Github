@@ -301,14 +301,7 @@ header {
 
 
 /*Navbar Início */
-@media (min-width:992px){
 
-    .side-navbar{
-        padding-left: 6rem;
-        padding-right: 6rem;
-    }
-
-}
 
 
 .sidenav {
@@ -513,10 +506,12 @@ header {
 
 .carousel-body {
     position: relative;
-    top: 25%;
+    top: 75%;
     padding-left: var(--padding);
     padding-right: var(--padding);
-    text-align: center;
+    
+    background-color: rgba(34, 45, 56, 0.8);
+    
     a{
         text-decoration: none;
     }
@@ -527,11 +522,15 @@ header {
     text-decoration: none;
     text-align: center;
     color: white;
-    font-size: 15pt;
-    padding-bottom: 3rem;
-    
+    font-size: 15pt;         
     font-weight: 500;
-    background-color: rgba(34, 45, 56, 0.8);
+    text-align: start;
+    padding-left: 3rem;
+    padding-right: 3rem;
+   
+   
+    
+
 
     
 
