@@ -111,6 +111,12 @@ body{
 
 }
 
+@media (min-width:992px){
+    .text-title-main{
+        text-align: start;
+    }
+}
+
 .text-body-main{
     color: #253653;
     font-weight: 300;
@@ -258,7 +264,15 @@ header {
     padding-right: 1.5rem;
     padding-bottom: 90px;
     
+    
 }
+
+@media (min-width:992px){
+    .main-pad{
+        padding-left: 6rem ;
+        padding-right: 6rem;
+    }
+} 
 
 @media (min-width:992px) {
     .footer-pd{
@@ -287,6 +301,15 @@ header {
 
 
 /*Navbar Início */
+@media (min-width:992px){
+
+    .side-navbar{
+        padding-left: 6rem;
+        padding-right: 6rem;
+    }
+
+}
+
 
 .sidenav {
     background-color: #002241;
@@ -341,16 +364,17 @@ header {
     .btn-nav-i{
         color:white;
         background-color: #003565;
-        height: 40px;
-        width: 140px;
-        border-radius: 10px;
+        height: 40px !important;
+        width: 140px !important;
+        border-radius: 10px !important;
+        
     }
 
     .btn-nav-o{
-        color:#003565;
+        color:#003565 ;
         background-color: white;
         height: 40px;
-        width: 140px;
+        width: 140px ;
         border-radius: 10px;
     }
 
@@ -415,15 +439,12 @@ header {
             font-size: 10pt;
         }
         
-    }
+    } 
 
-   
-
-    
-
- 
 
     /*Navbar Fim*/
+
+    
 
 
     /*login*/
@@ -474,16 +495,77 @@ header {
     font-weight: normal;
     font-size: smaller;
     padding-bottom: 0.7rem;
-
-    
     
     
 }
 
-.box-login-size{
-width:100%;
-height: 40px;
+
+
+
+
+/* Carousel rules */
+
+.carousel-item {
+    height: 24rem;
+    background-color: #000;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.carousel-body {
+    position: relative;
+    top: 25%;
+    padding-left: var(--padding);
+    padding-right: var(--padding);
+    text-align: center;
+    a{
+        text-decoration: none;
+    }
+    
+}
+
+.intro-text {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-size: 15pt;
+    padding-bottom: 3rem;
+    
+    font-weight: 500;
+    background-color: rgba(34, 45, 56, 0.8);
+
+    
+
 }
 
 
-    
+
+.overlay-img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.5;
+}
+
+
+.carousel-control-next, .carousel-control-prev {
+    display: none;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 3rem;
+    height: 3rem;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 6px;
+    height: 6px;
+    border-radius: 100%;
+}
+
+.carousel-indicators [data-bs-target]:not(:last-child) {
+    margin-right: 12px;
+}
