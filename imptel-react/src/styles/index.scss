@@ -1,0 +1,161 @@
+:root{
+    --text-sidebar-color:#737791;
+    --text-sidebar-size:11pt;
+    --text-sidebar-weight:400;
+    --button-sidebar-active:#003565;   
+    --color-light:#f8f9fa;    
+}
+
+
+body{
+    background-color: var(--color-light);
+}
+
+
+.menu-item-icon{    
+    margin: 0rem  1rem;    
+    width: 20px;
+    height: auto; 
+
+}
+
+.menu-item{
+    display: flex;
+    margin: 2px 10px;
+    justify-content: start; 
+    align-items: center;     
+    background-color: white;
+    width: 190px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    color: var(--text-sidebar-color);
+    font-size: var(--text-sidebar-size);
+    font-weight: var(--text-sidebar-weight);
+    
+}
+
+.menu-item.active{
+    background-color: var(--button-sidebar-active);
+    color: white;
+    align-items: center;       
+}
+
+
+.menu-item.active .menu-item-icon{
+    filter: brightness(0) invert(1);
+    align-items: center;    
+}
+
+.link-item{
+   @extend .menu-item;
+   color: #EB5B5B;
+   padding-top: 6rem;
+   text-decoration: underline;
+
+}
+
+.link-item-icon{
+    @extend .menu-item-icon;
+
+
+}
+
+
+.SideBar{
+    position: fixed; 
+    top:0;
+    left: 0;
+    width: 210px;
+    flex-direction: column;    
+    background-color: white;
+    height: 100vh;    
+    z-index: 100;
+}
+
+.header{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    height: 12vh;
+    width: 100%;
+    background-color: white;
+    color: var(--button-sidebar-active);
+    justify-content: center;
+    align-items: center ;
+    font-size: 26pt;
+    font-style:normal!important;
+    padding-left: 2rem;
+}
+
+.btn-nav-o{
+    color:white ;
+    background-color: #003565;
+    height: 40px;
+    width: 140px ;
+    border-radius: 10px;
+}
+
+.logo-sidebar{
+    width: 200px;
+    height: auto;
+    padding-left: 2rem !important;
+}
+
+.main-content {
+    margin-top: 80px;
+    margin-left: 16.666%; /* Ajusta para o menu lateral fixo */
+    width: 83.333%; /* Restante do espaço */
+}
+
+
+.banner-container {
+       
+    background-position: center;
+    background-size: cover ;
+    top: 8vh;
+    left: 100px;
+    
+    color: white;
+    height: 450px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    text-align: center;    
+    position: relative;
+    border-radius: 10px;
+}
+
+.banner-content {
+    
+    padding: 40px;
+    border-radius: 10px;
+    width: 80%; 
+    
+}
+
+.banner-title {
+    padding-bottom: 2rem;
+    font-size: 30pt;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.banner-description {
+    text-align: justify;
+    font-size: 15pt;
+    margin-bottom: 20px;
+    font-weight: 300;
+    
+}
+
+.banner-footer {
+    text-align: end;
+    font-size: 12pt;
+    font-style: italic;
+}
+
+
