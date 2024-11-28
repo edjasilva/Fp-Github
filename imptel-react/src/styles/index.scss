@@ -4,13 +4,42 @@
     --text-sidebar-weight:400;
     --button-sidebar-active:#003565;   
     --color-light:#f8f9fa;    
+    --outter-padding: 1.5rem;
+    --inner-padding: 2rem;
+    --box-shadow-color: rgba(161, 161, 161, 0.85);
 }
 
+.bkg-white{
+    background-color: white;
+}
 
 body{
+    font-family: "Montserrat", sans-serif; 
     background-color: var(--color-light);
+    overflow: hidden;
 }
 
+main{
+    padding: var(--inner-padding);
+    padding-right: var(--outter-padding);
+    overflow: auto;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+
+.row, .col-1, .col-2, .col-3, 
+.col-4, .col-5, .col-6, .col-7,
+.col-8, .col-9, .col-10, .col-11, .col-12 {
+    padding: 0;
+    margin: 0;
+}
+
+.menu {
+    margin-top: 2rem;
+}
 
 .menu-item-icon{    
     margin: 0rem  1rem;    
@@ -21,11 +50,12 @@ body{
 
 .menu-item{
     display: flex;
-    margin: 2px 10px;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
     justify-content: start; 
-    align-items: center;     
     background-color: white;
-    width: 190px;
+    align-items: center;   
+    width: 100%;
     height: 40px;
     border-radius: 8px;
     border: none;
@@ -35,10 +65,17 @@ body{
     
 }
 
+.menu-item:first-child {
+    margin-top: 0;
+}
+
+.menu-item:last-child {
+    margin-bottom: 0;
+}
+
 .menu-item.active{
     background-color: var(--button-sidebar-active);
     color: white;
-    align-items: center;       
 }
 
 
@@ -50,7 +87,6 @@ body{
 .link-item{
    @extend .menu-item;
    color: #EB5B5B;
-   padding-top: 6rem;
    text-decoration: underline;
 
 }
@@ -62,46 +98,51 @@ body{
 }
 
 
-.SideBar{
-    position: fixed; 
-    top:0;
-    left: 0;
-    width: 210px;
+.sidebar{
     flex-direction: column;    
-    background-color: white;
-    height: 100vh;    
-    z-index: 100;
+    height: 100vh;
 }
 
-.header{
-    display: flex;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 10;
-    height: 12vh;
+.toolbar{
     width: 100%;
-    background-color: white;
     color: var(--button-sidebar-active);
-    justify-content: center;
-    align-items: center ;
     font-size: 26pt;
     font-style:normal!important;
-    padding-left: 2rem;
+    padding-right: 1.5rem;
 }
 
-.btn-nav-o{
+.tool-wrapper {
+    justify-content: space-between;
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-left: 0.5rem;
+    padding-right: 0;
+}
+
+.nav-badge {
     color:white ;
     background-color: #003565;
-    height: 40px;
-    width: 140px ;
-    border-radius: 10px;
+    border-radius: 8px;
+    width: fit-content;
+    font-size: 12pt;
+    align-self: center;
+    padding: 4px 16px;
+}
+
+
+.intro-text {
+    width: fit-content;
+    padding: 0;
+}
+
+.intro-text>h1 {
+    font-size: 20pt;
 }
 
 .logo-sidebar{
-    width: 200px;
+    width: 130px;
     height: auto;
-    padding-left: 2rem !important;
+    padding-top: 0.75rem;
 }
 
 .main-content {
@@ -115,26 +156,21 @@ body{
        
     background-position: center;
     background-size: cover ;
-    top: 8vh;
-    left: 100px;
-    
     color: white;
-    height: 450px;
-    width: 80%;
     display: flex;
     align-items: center;
     justify-content: center;    
     text-align: center;    
     position: relative;
     border-radius: 10px;
+    padding: 3rem 5rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 12rem;
 }
 
 .banner-content {
-    
-    padding: 40px;
     border-radius: 10px;
-    width: 80%; 
-    
 }
 
 .banner-title {
@@ -158,4 +194,28 @@ body{
     font-style: italic;
 }
 
+@media screen and (min-width: 1200px) {
+    .col-xl-25 {
+        width: 18.6666667%;
+    }
+
+    .col-xl-95{
+        width: 81.3333333%;
+    }
+}
+
+input{
+font-style: italic;
+font-weight: 200;
+font-size: 10pt;
+outline: 0;
+color:#B4B4B4 ;
+box-shadow: 0 0 3px var(--box-shadow-color);
+border:0px ; 
+border-radius: 5px;
+height: 45px;
+}
+
+
+    
 

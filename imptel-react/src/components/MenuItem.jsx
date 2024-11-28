@@ -1,18 +1,19 @@
 import { useState } from "react";
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 function MenuItem({icon, label, isActive, route, onClick}){
+    const navigate=useNavigate();
 
     return(
-    <div className="menu container-fluid d-flex ">
-        <div className="row">
-                <button className={`menu-item   ${isActive?"active":"" }`} 
-                    onClick={onClick} >
-                    <img src={icon}  alt={label} className="menu-item-icon "  />
-                    {label}
-                </button>            
-        </div>
-    </div>
+        <button className={`menu-item   ${isActive?"active":"" }`} 
+            onClick={() => {
+                onClick(); // Atualiza o estado do botão ativo
+                navigate(route); // Navega para a rota
+            }}>
+            <img src={icon}  alt={label} className="menu-item-icon "  />
+            {label}
+        </button>
 )}
 
 export default MenuItem;

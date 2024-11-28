@@ -2,6 +2,7 @@ import React from "react";
 import MenuItem from "./MenuItem";
 import ButtonLink from "./buttonLink";
 import { useState } from "react";
+import { createBrowserRouter } from 'react-router-dom';
 import chartPieIcon from "../assets/images/fi-br-chart-pie-alt.svg";
 import userAddIcon from "../assets/images/fi-br-user-add.svg";
 import studentListIcon from "../assets/images/fi-br-line-width.svg";
@@ -14,13 +15,14 @@ import signOutIcon from "../assets/images/fi-br-sign-out-alt.svg";
 import logo from "../assets/images/logo.svg"
 
 
+
 function SideBar(){
 
     const [activeId, setActiveId]= useState(null);
 
     const menuItems =[
         {id:1, icon: chartPieIcon, label: "Início", route: "/" },
-        {id:2, icon: userAddIcon, label: "Alunos", route:"/alunos"},
+        {id:2, icon: userAddIcon, label: "Alunos", route:"./Student"},
         {id:3, icon: studentListIcon, label: "Lista de Alunos", route:"/"},
         {id:4, icon: enrollmentIcon, label: "Matrículas", route:"/"},
         {id:5, icon: paymentIcon, label:"Pagamentos", route:"/"},
@@ -33,34 +35,33 @@ function SideBar(){
 
     return(
 
-        <div className="SideBar">
-            <div className="row">
-                <div className="col-3">
-                    <img className="px-3 py-4 logo-sidebar" src={logo} alt="Logótipo Imptel" />
-                    {menuItems.map((item) =>(
-                        <MenuItem
-                        key={item.id}
-                        icon={item.icon}
-                        label={item.label }
-                        route={item.route}
-                        isActive={item.id===activeId}
-                        onClick={ ()=> setActiveId(item.id)} 
-                        />
-                    ))}
-                    {buttonLink.map((link) =>(
-                        <ButtonLink
-                        key={link.id}
-                        icon={link.icon}
-                        label={link.label}
-                        route={link.route}
-                        
-                        />
-
-                    ))}                  
-                                       
-                </div>
+        <nav className="sidebar">
+            <img className="logo-sidebar" src={logo} alt="Logótipo Imptel" />
+            
+            <div className="menu">
+                {menuItems.map((item) =>(
+                    <MenuItem
+                    key={item.id}
+                    icon={item.icon}
+                    label={item.label }
+                    route={item.route}
+                    isActive={item.id===activeId}
+                    onClick={ ()=> setActiveId(item.id)} 
+                    />
+                ))}
             </div>
-        </div>
+
+            {buttonLink.map((link) =>(
+                <ButtonLink
+                key={link.id}
+                icon={link.icon}
+                label={link.label}
+                route={link.route}
+                
+                />
+
+            ))}                  
+        </nav>
     )
      
 }
