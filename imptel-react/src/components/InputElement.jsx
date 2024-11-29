@@ -2,12 +2,11 @@ import React from "react";
 
 
 
-function InputElement({placeholder , icon, label, forId, classInput}){ 
+function InputElement({placeholder , icon, label, forId, classInput, type}){ 
     return(
-    <div >       
-        <label className={classInput} for={forId} >{label}</label>
-        <input type="text"  id={forId}   placeholder={placeholder}/>
-        <span><img src={icon} alt="" /> </span>
+    <div className={classInput || "form-item"}>
+        {label != null ? <label className="d-block" htmlFor={forId} >{label}</label> : ""}
+        <input type={type}  id={forId}   placeholder={placeholder}/>
     </div>    
 
     );

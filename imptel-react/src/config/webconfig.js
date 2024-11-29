@@ -9,6 +9,6 @@ $(document).ready(function() {
 
 function setMainContentHeight() {
     $("main").css({
-        height: `${$(this).height() + 300}px` 
+        height: `${$(document).height() + 300}px` 
     })
 }
