@@ -11,6 +11,10 @@ body{
     
 }
 
+.row {
+    padding: 0;
+}
+
 /* Primeira parte do footer */
 .ft-first{
     background-color: #002F5A;
@@ -39,6 +43,10 @@ body{
         color:#005FB5;
     }
 
+}
+
+.dropdown-icon.active {
+    transform: rotate(180deg);
 }
 
 
@@ -505,11 +513,11 @@ header {
 }
 
 .carousel-body {
-    position: relative;
-    top: 75%;
-    padding-left: var(--padding);
-    padding-right: var(--padding);
-    
+    position: absolute;
+    bottom: 0;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    width: 100%;
     background-color: rgba(34, 45, 56, 0.8);
     
     a{

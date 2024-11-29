@@ -22,5 +22,18 @@ var SideNav = {
             SideNav.collapse();
         })
     })
-    });
+});
     
+
+$('.btn-ft-dropdown').on('click', function() {
+    var parent = $(this).parent().parent();
+
+
+    parent.siblings('.active').children('.dropdown-center')
+    .children('.btn-ft-dropdown').children('.dropdown-icon.active').removeClass('active');
+    parent.siblings('.active').removeClass('active');
+    $('.collapse.show').removeClass('show');
+
+    parent.toggleClass('active');
+    $(this).children('.dropdown-icon').toggleClass('active');
+})
